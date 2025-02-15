@@ -23,4 +23,10 @@ Finally, the workflow **runs** the simulation. If successful then it will quietl
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
 
-![image of my ripple adder waveform](ripple_adder_waveform.png)
+![image of ripple adder waveform](ripple_adder_waveform.png)
+![image of top basys3 entity](top_basys3_entity.png)
+
+##Documentation
+
+C3C Dylan Anderson assisted me with the full adder by explaining to me that the last full adder's output
+is not connected to a carry but is instead connected to the C_out. 
